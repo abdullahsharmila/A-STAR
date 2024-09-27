@@ -1,6 +1,6 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name:Abdullah R      </h3>
-<h3>Register Number:212223230004           </h3>
+<h3>Name: Abdullah R      </h3>
+<h3>Register Number:  212223230004         </h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
@@ -49,13 +49,7 @@
     end (while loop)
 
 ``````
-
-<hr>
-<h2>Sample Graph I</h2>
-<hr>
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
-<h3>Program</h3>
+## PROGRAM:
 ```
 from collections import defaultdict
 H_dist ={}
@@ -123,6 +117,11 @@ print('Path does not exist!')
 return None
 ```
 
+<hr>
+<h2>Sample Graph I</h2>
+<hr>
+
+![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
 
 <hr>
 <h2>Sample Input</h2>
@@ -156,7 +155,8 @@ J 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'F', 'G', 'I', 'J']
-<h3>Program</h3>
+
+## PROGRAM:
 ```
 #define fuction to return neighbor and its distance
 #from the passed node
@@ -168,7 +168,7 @@ def get_neighbors(v):
 def heuristic(n):
     return H_dist[n]
           
-Graph_nodes = {
+'''Graph_nodes = {
     'A': [('B', 6), ('F', 3)],
     'B': [('A', 6), ('C', 3), ('D', 2)],
     'C': [('B', 3), ('D', 1), ('E', 5)],
@@ -195,8 +195,6 @@ Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
 ```
-
-
 
 <hr>
 <h2>Sample Graph II</h2>
@@ -225,3 +223,6 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
+
+## RESULT:
+ Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
